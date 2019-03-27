@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Buffalo Bills Collector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Bangers|Sigmar+One" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="header justify-content-center text-center">
+        <h1>Buffalo Bills Collector</h1>
+    </div>
+    <div class="instructions justify-content-center text-center">
+        <h3>How to Play the Game</h3>
+        </br>
+        <ol>
+            <p>You will be given a random number at the beginning of the game.<span>"Number To Get"</span></p>
+            <p>You will win the game by matching the value of your buttons, to the random number you are given.</p>
+            <ul class="introGem border justify-content-center col-3">
+                <p id="red">New School Logo</p>
+                <p id="blue">Red Helmet</p>
+                <p id="red">White Helmet</p>
+                <p id="blue">Old School Logo</p>
+            </ul>
+            <p>You will lose if the value of your buttons goes above the random number you are given</p>
+            <p>The value of the buttons are hidden until you cpck on them.</p>
+            <p>Each time the game starts, the random number will change ALONG with the values of the buttons!!</p>
+            <p id="good-luck-text">GOOD LUCK!!</p>
+        </ol>
+    </div>
+
+    <div class="scorecard justify-content-center text-center row">
+
+        <div class="numbers text-center border">
+            <div class="numberToMatch">
+                <h2>Number To Get:
+                    <span id="randomNumber"></span>
+                </h2>
+            </div>
+            <div class="userTotal">
+                <h2>Your total score is:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="winLose justify-content-center text-center border">
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id="numberWins"></span>
+                    </br>
+                    Losses:
+                    <span id="numberLosses"></span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="gems">
+            <img src="assets/images/Logo.png" class="gemImage  image-fluid" id="one" alt="New School Logo Responsive image">
+            <img src="assets/images/redHelmet.png" class="gemImage  image-fluid" id="two"
+                alt="Red Helmet Responsive image">
+            <img src="assets/images/newHelmet.png" class="gemImage  image-fluid" id="three"
+                alt="White Helmet Responsive image">
+            <img src="assets/images/oldSchoolLogo.png" class="gemImage  image-fluid" id="four"
+                alt="Old School Logo Responsive image">
+        </div>
+    </div>
+
+<footer class="text-center justify-content-center">
+    <p>Alyssa Szutz | Coding Bootcamp | 2019</p>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

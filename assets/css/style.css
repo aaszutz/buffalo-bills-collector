@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Sigmar One', cursive;
+    font-size: 100px;
+    background: white;
+    padding: 5px;
+    color: navy;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    padding-top: 40px;
+    opacity: 1;
+}
+
+.introGem {
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.instructions {
+    margin: auto;
+    background: rgb(166, 175, 184);
+    opacity: .95;
+    width: 95%;
+    color: white;
+}
+
+.numbers {
+    margin-right: 5px;
+    background: red;
+    color: white;
+    opacity: .95;
+    padding: 20px;
+    font-family: 'Sigmar One', cursive;
+    width: 60%
+}
+
+.winLose {
+    background: navy;
+    color: white;
+    opacity: .95;
+    padding: 20px;
+    font-family: 'Sigmar One', cursive;
+    width: 30%;
+}
+
+.gems {
+    margin-top: 30px;
+    background: white;
+    width: 100%;
+    padding: 10px;
+}
+
+#good-luck-text {
+    color: black;
+    font-family: 'Sigmar One', cursive;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#red {
+    color: red;
+    font-family: 'Anton', sans-serif;
+}
+
+#blue {
+    color: navy;
+    font-family: 'Anton', sans-serif;
+}
+
+footer {
+    background: navy;
+    width: 100%;
+    margin: auto;
+    color:white;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Sigmar One', cursive;
+}
+
+@media only screen and (max-width: 1020px) {
+    .numbers {
+        width: 95%;
+        margin: auto;
+    }
+    .winLose {
+        width: 95%;
+        margin: auto;
+    }
+
+
+    .gems {
+        padding: 20px;
+    }    
+  }
